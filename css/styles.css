@@ -11,11 +11,25 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /************************************************ID SELECTORS************************************************/
 
 #title {
     background-color: #5AD2A0;
     color: #fff
+}
+
+#features {
+    padding: 7% 15%;
 }
 
 /************************************************CLASS SELECTORS************************************************/
@@ -53,3 +67,23 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+
+/* Features Section */
+
+.features-img {
+    color: #7AE4A6;
+    margin-bottom: 1rem;
+}
+
+.features-img:hover {
+    color: #DAE2D5;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* a:hover {
+    color: #DAE2D5;
+} */
