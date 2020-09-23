@@ -16,7 +16,6 @@ h2 {
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
-    color: #fff
 }
 
 h3 {
@@ -43,12 +42,18 @@ p {
 #testimonials {
     background-color: #7AE4A6;
     text-align: center;
+    color: #fff
 }
 
 #press {
     background-color:  #7AE4A6;
     text-align: center;
     padding-bottom: 3%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
 }
 
 /************************************************CLASS SELECTORS************************************************/
@@ -119,4 +124,9 @@ p {
 .press-logos {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+.pricing-column {
+    padding: 3% 2%;
 }
