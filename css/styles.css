@@ -32,11 +32,14 @@ p {
 
 #title {
     background-color: #5AD2A0;
-    color: #fff
+    color: #fff;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 #testimonials {
@@ -59,7 +62,7 @@ p {
 /************************************************CLASS SELECTORS************************************************/
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -83,13 +86,17 @@ p {
     font-weight: 100;
 }
 
+/* Title Section */
+
 .download-button {
     margin: 5% 3% 5% 0; 
 }
 
 .Trekkers-main {
-    width: 60%;
+    width: 50%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
@@ -129,4 +136,18 @@ p {
 /* Pricing Section */
 .pricing-column {
     padding: 3% 2%;
+}
+
+/************************************************MEDIA QUERY************************************************/
+
+@media (max-width: 1028px) {
+    .Trekkers-main {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
 }
